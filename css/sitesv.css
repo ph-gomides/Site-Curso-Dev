@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccc;
+}
+
+/* sempre importate colocar as imagens no mesmo diretorio do csse */
+/* ao colocar uma imagem use sempre o backgroud size cover para ela nao duplicar*/
+
+.hero {
+  background-image: url(imagens/bg-3.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: right center;
+  padding-top: 1px;
+}
+
+.baner-cont {
+  margin: 50px auto 0;
+  text-align: center;
+  color: white;
+}
+
+.baner-cont h1 {
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 0;
+}
+
+.baner-cont p {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 10px;
+  border-bottom: 2px solid white;
+}
+
+.menu ul {
+  margin: 20px 50px 0 0;
+  text-align: right;
+}
+
+.menu li {
+  display: inline-block;
+  list-style-type: none;
+  border: 1px solid white;
+  margin-left: 20px;
+}
+.menu a {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 16px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.menu a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* para determinar os espaço que queremos que o main fiquei na tela usamos as tags abixo */
+
+main {
+  width: 90%;
+  margin: auto;
+  max-width: 800px;
+}
+
+section {
+  padding-top: 32px;
+}
+
+article {
+  background-color: white;
+  padding: 16px;
+  margin-bottom: 34px;
+}
+
+article h2 {
+  border-bottom: 2px solid #ccc;
+  background-color: #eee;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.rodape {
+  color: white;
+  background-color: #6b6b68;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  padding: 30px;
+  letter-spacing: 2px;
+}
